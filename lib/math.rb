@@ -24,6 +24,5 @@ def modulo(num1, num2)
 end
 
 def square_root(num)
-  squirt = num.to_i
-  squirt.sqrt
+   Math.sqrt(num)
 end
